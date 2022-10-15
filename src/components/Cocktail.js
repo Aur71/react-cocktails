@@ -15,7 +15,7 @@ const Cocktail = ({ id, name, img, type, glass }) => {
         <h2>{name}</h2>
         <h3>{glass}</h3>
         <p>{type}</p>
-        <Link to={`/react-cocktails/cocktail/${name}`}>
+        <Link to={`/cocktail`}>
           <button onClick={() => getSinglePage(id)}>Details</button>
         </Link>
       </div>

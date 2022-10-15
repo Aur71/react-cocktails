@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav>
       <div className="nav-center">
         <div className="logo-wrapper">
-          <Link to="/react-cocktails">
+          <Link to="/">
             <h2>
               Cock<span>tails</span>
             </h2>
@@ -15,11 +15,11 @@ const Navbar = () => {
 
         <ul className="links-container">
           <li>
-            <Link to="/react-cocktails">Home</Link>
+            <Link to="/">Home</Link>
           </li>
 
           <li>
-            <Link to="/react-cocktails/about">About</Link>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </div>
